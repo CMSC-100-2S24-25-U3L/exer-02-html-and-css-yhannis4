@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My Portfolio</title>
+    <style>
+
+        @font-face {
+            font-family: GeistMono;
+            src: url(GEISTMONO-BOLD.TTF);
+            font-weight: 1000;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: #333;
+            background-color: #ffe8a5ae;
+        }
+
+        /* Header Section */
+        header {
+            background: #989d80;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header img.logo {
+            width: 100px;
+            height: 130px;
+            border-radius: 50%;
+            vertical-align: middle;
+        }
+
+        header h1 {
+            margin: 10px 0 0;
+            font-size: 2.5em;
+        }
+
+        /* Main Content */
+
+        img.about-me-pic{
+            width: 230px;
+            height: 230px;
+            border-radius: 35%;
+            margin-top: 10px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #333;
+            border-bottom: 3px solid #615c5c;
+            padding-bottom: 5px;
+        }
+
+        p {
+            margin-bottom: 20px;
+            font-size: 20px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ul li {
+            background: #f4f4f4;
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 4px;
+        }
+
+        .project {
+            margin-bottom: 20px;
+        }
+
+        .project h3 {
+            margin: 0 0 10px;
+            color: #848282;
+        }
+
+        .project p {
+            margin: 0;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background: #92a57c;
+            color: #fff;
+            margin-top: 40px;
+        }
+
+        footer a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Logo" class="logo">
+        <h1 style="text-align: center; font-family: GeistMono; color: #333;">Yhannis Prudencio's Autobiography</h1>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+        <!-- Autobiography Section -->
+        <section>
+            <h2>Who I am</h2>
+            <div class ='about-me'>
+                <img src='profile.jpg' alt="About Me Image" class="about-me-pic">
+            <p>
+                I am Yhannis Geosh Prudencio, a Web Developer with a passion for learning new technology, as they come and go. I graduated from the University of the Philippines. I am currently located in Los Banos, Laguna, but I am willing to relocate if needed. I was born and raised in Baguio City. I took an interest in developing web sites and web applications due to its very flexible nature, I view it as something that can be used for anything, anywhere.
+            </p>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section>
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML5 and CSS</li>
+                <li>JavaScript</li>
+                <li>Version Control (Git)</li>
+                <li>Basic Knowledge of Backend (Node.js, MongoDB)</li>
+                <li>Database Management system knowledge and handling (MariaDB, MySQL)</li>
+            </ul>
+        </section>
+
+        <!-- Projects Section -->
+        <section>
+            <h2>Previous Projects</h2>
+            <div class="project">
+                <h3>Project 1: Finance expenses manager</h3>
+                <p>
+                    A fully responsive website that manages a person's expenses. Uses HTML, CSS and JavaScript. It has a sleek design, mostly aimed for functionality.
+                </p>
+            </div>
+            <div class="project">
+                <h3>Project 2: Habit tracker web application</h3>
+                <p>
+                    A habit tracker similar to Duolingo's functionality. It tracks streaks and general progress. Progress may be shown in various graphs/other visual forms. Uses HTML,CSS, and JavaScript.
+                </p>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>PRUDENCIO, YHANNIS GEOSH. | <a href="mailto:yprudenc4@gmail.com">Contact Me Here</a></p>
+    </footer>
+</body>
+</html>
